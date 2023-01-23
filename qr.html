@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+    <style>
+        body{
+            margin:0;
+            background: rgb(239,239,239);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .center-screen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        /* #qr{
+            width: 25%;
+        }
+        @media only screen and (max-width: 766px){
+            #qr{width: 75%;}
+        } */
+        #qr{
+            width: 25rem;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(32,33,36);
+            font-size: 1.75rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-screen">
+            <img src="qr-code.png" id="qr"><br>
+            <a href="https://bit.ly/contact_ayushya">bit.ly/contact_ayushya</a>
+      </div>
+</body>
+</html>
